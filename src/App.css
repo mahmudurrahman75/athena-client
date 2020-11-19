@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+.logo{
+  height: 70px;
+}
+.btnStyle{
+  background-image: linear-gradient( to right, #1BD6BC , #0EBCDB);
+  border-radius: 20px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* header  */
+
+.HeaderText{
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* services */
+.servicesBG{
+  background-color: #f4fdf9;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.serviStyle{
+  padding: 38px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.serviStyle:hover{
+  background-color: #fff;
+  border-radius: 60px 0;
+  box-shadow: 5px 5px 30px lightblue;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.serviceIcon{
+  height: 70px;
+  margin-bottom: 10px;
 }
