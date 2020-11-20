@@ -1,0 +1,228 @@
+/* nav  */
+.logo{
+  height: 70px;
+}
+.btnStyle{
+  background-image: linear-gradient( to right, #1BD6BC , #0EBCDB);
+  border-radius: 20px 0px;
+}
+
+
+/* header  */
+.headerBG{
+  background-image: url('./image/headerBG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.HeaderText{
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+}
+
+
+/* services */
+.servicesBG{
+  background-color: #f4fdf9;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background-image: url('./image/serviceCarbBG.png');
+  background-size: cover;
+}
+.serviStyle{
+  padding: 38px;
+}
+
+.serviStyle:hover{
+  background-color: #fff;
+  border-radius: 60px 0;
+  box-shadow: 5px 5px 30px lightblue;
+}
+
+.serviceIcon{
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+/* project  */
+.projectBG{
+  background-image: url(./image/ProjectBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+ 
+}
+
+/* achievment  */
+.achivmentBG{
+  background-color: #f4fdf9;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.achievmentContent{
+  margin-top: 150px;
+  padding-left: 20px;
+}
+.achievmentContent2{
+  margin-top: 150px;
+}
+.achivementBoxStyle{
+  background-image: linear-gradient( to right, #0EBCDB , #1BD6BC);
+  border-radius: 0 40px;
+  height: 130px;
+  width: 85%;
+  padding: 20px;
+}
+.achivementBoxStyle2{
+  background-color: #fff;
+  border-radius: 40px 0;
+  height: 130px;
+  width: 85%;
+  padding: 20px;
+}
+.achivementBoxStyle2:hover{
+  background-image: linear-gradient( to right, #0EBCDB , #1BD6BC);
+  border-radius: 40px 0;
+  height: 130px;
+  width: 85%;
+  padding: 20px;
+}
+.achivementBoxStyle3{
+  background-color: #fff;
+  border-radius: 40px 0;
+  height: 130px;
+  width: 85%;
+  padding: 20px;
+}
+.achivementBoxStyle3:hover{
+  background-image: linear-gradient( to right, #0EBCDB , #1BD6BC);
+  border-radius: 40px 0;
+  height: 130px;
+  width: 85%;
+  padding: 20px;
+}
+
+.achivementBoxStyle4{
+  background-color: #fff;
+  border-radius: 0 40px;
+  height: 130px;
+  width: 85%;
+  padding: 20px;
+}
+.achivementBoxStyle4:hover{
+background-image: linear-gradient( to right, #0EBCDB , #1BD6BC);
+border-radius: 0 40px;
+height: 130px;
+width: 85%;
+padding: 20px;
+}
+
+
+
+
+/* Team */
+
+.TeamBG{
+  background-color: #f4fdf9;
+  padding-bottom: 100px;
+}
+.teamTitle{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+.teamContent li {
+  list-style: none;
+  line-height: 50px;
+}
+
+.TeamBoxStyle{
+  background-color: #fff;
+  width: 85%;
+  box-shadow: 5px 5px 20px whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+
+}
+.TeamBoxStyle:hover{
+  background-color: #fff;
+  width: 85%;
+  box-shadow: 5px 5px 20px whitesmoke;
+  border: 3px solid #1BD6BC;
+
+}
+
+.TeamPara{
+  border-bottom: 1px solid #1BD6BC;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.btnDisplay{
+  display: none;
+  width: 130px;
+  margin: 0 auto;
+}
+
+.TeamBoxStyle:hover .btnDisplay{
+  display: block;
+}
+
+
+
+/* footer */
+form{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 40px;
+}
+form input{
+  border: none !important;
+  box-shadow: 5px 5px 30px lightgray;
+}
+
+
+.footerBtn{
+  background-image: linear-gradient( to right, #1BD6BC , #0EBCDB);
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}
+.footerIcon img{
+  height: 20px;
+}
+
+.footerItem{
+  margin-top: 100px;
+  list-style: none;
+}
+
+
+/* responsive  */
+
+@media only screen and (max-width: 779px){
+
+  .achievmentContent2{
+    margin-top: 20px;
+  }
+  .achivementBoxStyle2{
+    background-color: #fff;
+    border-radius: 40px 0;
+    height: 130px;
+    width: 85%;
+    padding: 20px;
+    margin-left: 50px;
+  }
+  .achivementBoxStyle4{
+    background-color: #fff;
+    border-radius: 0 40px;
+    height: 130px;
+    width: 85%;
+    padding: 20px;
+    margin-left: 50px;
+  }
+
+}
