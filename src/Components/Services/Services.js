@@ -35,8 +35,9 @@ const Services = () => {
         }
     ]
     return (
-        <div className="container">
-            <div className="servicesBG">
+        <div className="servicesBG">
+            <div className="container">
+
                 <div className="text-center pt-5">
                     <h2>What We Do</h2>
                     <p>Our main focus is to make the User Experience very <br /> simple and easy. Simplicity is our Strength.</p>
@@ -44,7 +45,7 @@ const Services = () => {
 
                 <div className="row pt-5">
                     {
-                         whatWeDo.map(service => <ServicesDetails service={service} key={service.name}></ServicesDetails>)
+                        whatWeDo.map(service => <ServicesDetails service={service} key={service.name}></ServicesDetails>)
                     }
                 </div>
             </div>

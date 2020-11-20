@@ -4,7 +4,7 @@ import Nav from '../Nav/Nav';
 
 const Header = () => {
     return (
-        <div>
+        <div className="headerBG">
             <Nav></Nav>
             <HeaderContent></HeaderContent>
         </div>
