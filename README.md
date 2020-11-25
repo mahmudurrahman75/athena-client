@@ -4,8 +4,7 @@
 •	Service sections are presented by using different types of design card.
 •	Achievement sections are presented by logo with various shapes of card.
 •	The packages are divided into three categories with different set of futures and when hover it shows button.
-•	AT footer path have a contact section where visitor can send their email for taking services. 
-**
+•	AT footer path have a contact section where visitor can send their email for taking services.**
   
   ### Tools & Technologies: React JS, Node JS & Express JS as Backend,Bootstrap, Material UI, Firebase, Netlify Authentication etc.
 
